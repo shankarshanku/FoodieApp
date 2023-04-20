@@ -1,4 +1,5 @@
 import "../styles/home.css"
+import Footer from "./footer";
 const Home = () => {
     return (
         <div className="home">
@@ -7,9 +8,9 @@ const Home = () => {
                     <h1 style={{ fontFamily: "Poppins", fontWeight: "bolder" }}>Foodie</h1>
                 </div>
                 <div class=" d-flex p-4 pe-5 me-5">
-                    <p><a class="pe-4 link-dark text-decoration-none fw-semibold  " href="">Home</a></p>
-                    <p><a class="pe-4 link-dark text-decoration-none fw-semibold  " href="">About</a></p>
-                    <p><a class="pe-4 link-dark text-decoration-none fw-semibold " href="">Foods</a></p>
+                    <p><a class="pe-4 link-dark text-decoration-none fw-semibold  " href="/home">Home</a></p>
+                    <p><a class="pe-4 link-dark text-decoration-none fw-semibold  " href="/about">About</a></p>
+                    <p><a class="pe-4 link-dark text-decoration-none fw-semibold " href="/addpost">Foods</a></p>
                     <p><a class="pe-4 link-dark text-decoration-none fw-semibold  " href="">Lifestyle</a></p>
                     <p><a class="pe-4 link-dark text-decoration-none fw-semibold  " href="">Contact</a></p>
                 </div>
@@ -73,7 +74,7 @@ const Home = () => {
                 </div>
             </div>
             <section>
-
+                <Footer/>
             </section>
         </div>
     );

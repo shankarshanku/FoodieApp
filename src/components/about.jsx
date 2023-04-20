@@ -1,11 +1,13 @@
 import "../styles/about.css"
+import Footer from "./footer";
 import Topimage from "./topimage"
 
 const About = () => {
+    let title="About"
     return (
          
         <div className="about">
-             
+                <Topimage data={title}/>
             <div className="d1 d-flex pt-4">
 
 
@@ -50,9 +52,9 @@ const About = () => {
 
 
             </div>
-
-
-
+                <div>
+            <Footer/>
+            </div>
         </div>
 
     );
